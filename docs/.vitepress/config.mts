@@ -131,7 +131,7 @@ export default defineConfig({
 
     footer: {
       message:
-        "内容基于开源课程《零基础学 Python》的 PPT 与配套代码（gitee.com/wilsonyin/zero-basics-python，MIT License）整理并重排为中文学习路径",
+        "内容基于开源课程《零基础学 Python》的 PPT 与配套代码（gitee.com/wilsonyin/zero-basics-python，LGPL-2.1）整理并重排为中文学习路径",
       copyright: "本中文版仅供学习使用",
     },
   },

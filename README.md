@@ -6,7 +6,7 @@
 - 📦 源码仓库（二选一，内容一致）：
   - GitHub：<https://github.com/cleversnail/zero-basics-python>
   - Gitee：<https://gitee.com/snail_wn/zero-basics-python>
-- 📄 原始课程仓库：<https://gitee.com/wilsonyin/zero-basics-python>（PPT / 代码，MIT License）
+- 📄 原始课程仓库：<https://gitee.com/wilsonyin/zero-basics-python>（PPT / 代码，LGPL-2.1）
 
 ## 这本书是什么
 
@@ -103,5 +103,8 @@ npm run verify
 
 ## 许可
 
-- 本中文精读版：仅供学习使用
-- 原始课程 PPT 与代码：MIT License，来自 <https://gitee.com/wilsonyin/zero-basics-python>
+- **原始课程的 PPT 与代码**：LGPL-2.1，来自 <https://gitee.com/wilsonyin/zero-basics-python>
+- **本中文精读版**：是上述课程内容的整理、重排与复现（衍生作品），因此沿用同一许可证
+  **LGPL-2.1**，全文见 [LICENSE](./LICENSE)。正文文字为本项目原创撰写，代码示例源自并改造自原课程仓库。
+
+> ⚠️ 如需商用，请先阅读 LGPL-2.1 条款，并自行确认上游课程内容的授权范围。
