@@ -3,7 +3,9 @@
 > 把开源课程《零基础学 Python》（<https://gitee.com/wilsonyin/zero-basics-python>）的 **PPT + 配套代码**，按官方 117 讲目录重排成一本中文电子书。
 
 - 🌐 在线电子书：<https://cleversnail.github.io/zero-basics-python/>
-- 📦 源码仓库：<https://github.com/cleversnail/zero-basics-python>
+- 📦 源码仓库（二选一，内容一致）：
+  - GitHub：<https://github.com/cleversnail/zero-basics-python>
+  - Gitee：<https://gitee.com/snail_wn/zero-basics-python>
 - 📄 原始课程仓库：<https://gitee.com/wilsonyin/zero-basics-python>（PPT / 代码，MIT License）
 
 ## 这本书是什么
@@ -39,8 +41,9 @@
 ## 快速开始
 
 ```bash
-# 1. 克隆源码（文档站点在 GitHub Pages，源码在同名 GitHub 仓库）
+# 1. 克隆源码（GitHub / Gitee 二选一，两个仓库内容一致，都是同名目录 zero-basics-python）
 git clone https://github.com/cleversnail/zero-basics-python.git
+# git clone https://gitee.com/snail_wn/zero-basics-python.git
 cd zero-basics-python
 
 # 2. 本地看文档

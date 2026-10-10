@@ -59,16 +59,23 @@ TCB_ENV_ID=<你的环境id> npm run deploy:tencent
 
 ## 双远端（Gitee + GitHub）
 
-本系列的习惯是**一次 push 同时发两个远端**：
+本系列的习惯是**一次 push 同时发两个远端**。本仓库已配好：
 
 ```bash
-# 只配一次
-git remote set-url --push origin https://gitee.com/<user>/<repo>.git
+# 已经配好了，下面是配置命令（换仓库名时才需要重跑）
+git remote set-url --push origin https://gitee.com/snail_wn/zero-basics-python.git
 git remote set-url --add --push origin https://github.com/cleversnail/zero-basics-python.git
 
 git remote -v          # origin 应显示两条 (push)
 git push origin main   # 一条命令 → Gitee + GitHub
 ```
 
-注意两个远端的仓库名**不一定相同**，而 `git clone` 会用 URL 里的名字生成本地目录，
-所以写克隆说明时**每个远端配各自的 `cd` 目标**，别只写一套。
+首次换机器/换仓库名时，可用现成脚本一次配好并核对 SHA：
+
+```bash
+bash scripts/setup-gitee-remote.sh https://gitee.com/snail_wn/zero-basics-python.git
+```
+
+推送后**核对三个 SHA 是否一致**（本地 / Gitee / GitHub），"我推了"不算证据，SHA 一致才算。
+这次两个远端的仓库名恰好相同，`git clone` 生成的本地目录都是 `zero-basics-python`；
+若将来两端名字不同，写克隆说明时要**每个远端配各自的 `cd` 目标**。
