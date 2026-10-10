@@ -1,0 +1,1 @@
+import{_ as d,o as e,c as o,a2 as r}from"./chunks/framework.BzFiDlvK.js";const p=JSON.parse('{"title":"术语表","description":"","frontmatter":{},"headers":[],"relativePath":"glossary.md","filePath":"glossary.md"}'),c={name:"glossary.md"};function a(n,t,s,i,h,l){return e(),o("div",null,[...t[0]||(t[0]=[r("",22)])])}const b=d(c,[["render",a]]);export{p as __pageData,b as default};
