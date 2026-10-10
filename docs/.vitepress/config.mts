@@ -4,14 +4,14 @@ import { defineConfig } from "vitepress";
  * VitePress 配置 —— 参考 vuejs.org 官方站点的信息架构：
  * 顶栏导航 + 左侧目录 + 右侧大纲 + 本地搜索。
  *
- * 内容来源：极客时间《零基础学Python》（尹会生）课程的 PPT 与配套代码，
- * 按官方 117 讲目录重排为中文电子书。
+ * 内容来源：开源课程《零基础学 Python》的 PPT 与配套代码
+ * （gitee.com/wilsonyin/zero-basics-python），按官方 117 讲目录重排为中文电子书。
  */
 export default defineConfig({
   lang: "zh-CN",
   title: "零基础学 Python 中文精读",
   description:
-    "跟着极客时间《零基础学Python》走一遍：15 章 117 讲，从环境搭建到物联网，每讲配中文讲解与真实可运行的 Python 代码。",
+    "跟着开源课程《零基础学 Python》走一遍：15 章 117 讲，从环境搭建到物联网，每讲配中文讲解与真实可运行的 Python 代码。",
 
   // 始终使用浅色（青绿主题）。设为 false = 关闭深色模式。
   appearance: false,
@@ -131,7 +131,7 @@ export default defineConfig({
 
     footer: {
       message:
-        "内容基于极客时间《零基础学Python》（尹会生）课程 PPT 与配套代码（gitee.com/wilsonyin/zero-basics-python，MIT License）整理并重排为中文学习路径",
+        "内容基于开源课程《零基础学 Python》的 PPT 与配套代码（gitee.com/wilsonyin/zero-basics-python，MIT License）整理并重排为中文学习路径",
       copyright: "本中文版仅供学习使用",
     },
   },

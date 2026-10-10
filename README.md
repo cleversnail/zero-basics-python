@@ -1,6 +1,6 @@
 # 零基础学 Python 中文精读
 
-> 把极客时间《零基础学 Python》（尹会生）的 **PPT + 配套代码**，按官方 117 讲目录重排成一本中文电子书。
+> 把开源课程《零基础学 Python》（<https://gitee.com/wilsonyin/zero-basics-python>）的 **PPT + 配套代码**，按官方 117 讲目录重排成一本中文电子书。
 
 - 🌐 在线电子书：<https://cleversnail.github.io/zero-basics-python/>
 - 📦 源码仓库：<https://github.com/cleversnail/zero-basics-python>

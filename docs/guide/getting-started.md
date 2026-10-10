@@ -347,7 +347,7 @@ git push
 关键词技巧：
 
 - `filetype: pdf python`——只搜 PDF 格式的资料
-- `contents: time.geekbang.org python`——限定在某个站点的正文里搜
+- `contents: docs.python.org python`——限定在某个站点的正文里搜
 
 **2. 学会使用文档**
 

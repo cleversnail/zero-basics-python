@@ -179,7 +179,7 @@ Python 发出 HTTP 请求 ──► 服务器返回网页源代码 ──► Pyt
 
 ```python
 import requests
-r = requests.get('https://time.geekbang.org', auth=('user', 'pass'))
+r = requests.get('https://www.example.com', auth=('user', 'pass'))
 r.status_code          # 200
 r.headers['content-type']  # 'application/json; charset=utf8'
 r.encoding             # 'utf-8'
@@ -216,7 +216,7 @@ r.json()               # {'authenticated': True, ...}
 from urllib.parse import urlparse, parse_qs, urlencode
 from requests import Request
 
-url = "https://time.geekbang.org/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc"
+url = "https://www.example.com/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc"
 parsed = urlparse(url)
 print("scheme（协议）  :", parsed.scheme)
 print("netloc（主机名）:", parsed.netloc)
@@ -237,9 +237,9 @@ print("地址(url)      :", req.url)
 
 ```bash
 $ python3 88-http-demo.py
-原始 URL： https://time.geekbang.org/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc
+原始 URL： https://www.example.com/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc
 scheme（协议）  : https
-netloc（主机名）: time.geekbang.org
+netloc（主机名）: www.example.com
 path（路径）    : /resource
 query（查询参数）: plus=0&m=0&d=3&c=12&sort=2&order=desc
 
@@ -250,7 +250,7 @@ query（查询参数）: plus=0&m=0&d=3&c=12&sort=2&order=desc
 
 即将发送的请求：
     方法(method)   : GET
-    地址(url)      : https://time.geekbang.org/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc
+    地址(url)      : https://www.example.com/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc
     请求头(headers):
         User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36
 

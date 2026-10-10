@@ -13,8 +13,8 @@ from requests import Request
 
 # ---------- 1. 拆解 URL ----------
 # URL 是「统一资源定位符」，一个典型的 URL 长这样：
-#   https://time.geekbang.org/resource?plus=0&sort=2&order=desc
-url = "https://time.geekbang.org/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc"
+#   https://www.example.com/resource?plus=0&sort=2&order=desc
+url = "https://www.example.com/resource?plus=0&m=0&d=3&c=12&sort=2&order=desc"
 
 parsed = urlparse(url)
 print("原始 URL：", url)

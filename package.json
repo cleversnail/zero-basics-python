@@ -2,7 +2,7 @@
   "name": "zero-basics-python-cn",
   "version": "1.0.0",
   "private": true,
-  "description": "《零基础学 Python 中文精读》—— 跟着极客时间《零基础学Python》课程，把 117 讲内容整理成一本可运行、可查的中文电子书",
+  "description": "《零基础学 Python 中文精读》—— 把开源课程 zero-basics-python 的 117 讲内容整理成一本可运行、可查的中文电子书",
   "type": "module",
   "engines": {
     "node": ">=20.0.0"

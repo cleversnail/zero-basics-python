@@ -41,7 +41,9 @@ features:
 
 ## 这本书是什么
 
-这是把极客时间《零基础学 Python》（尹会生）课程的 **PPT 与配套代码**，按官方目录重排成的中文电子书。
+这是把开源课程《零基础学 Python》的 **PPT 与配套代码**，按官方目录重排成的中文电子书。
+
+原课程的开源仓库在 Gitee：<https://gitee.com/wilsonyin/zero-basics-python>（PPT / 代码，MIT License）。
 
 原课程是 117 讲视频；这本书把它们逐讲整理成可读、可查、可复现的图文：
 
