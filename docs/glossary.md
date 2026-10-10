@@ -99,6 +99,36 @@
 | 消息队列协议 | MQTT | 物联网常用的轻量发布/订阅协议 |
 | 物模型 | thing model | 把设备抽象成「属性 + 事件 + 方法」的数据模板 |
 
+## 进阶与常用库（第 10–15 章）
+
+| 中文 | English | 说明 |
+| --- | --- | --- |
+| 具名元组 | `namedtuple` | `collections` 里带字段名的元组，比普通元组可读 |
+| 双向队列 | `deque` | 两端都能 O(1) 进出的队列，支持 `maxlen` |
+| 计数器 | `Counter` | `collections` 里数数的字典，`most_common()` 取高频项 |
+| 默认值字典 | `defaultdict` | 取不存在的键时自动给默认值，不报 `KeyError` |
+| 缓存装饰器 | `functools.lru_cache` | 把函数结果缓存起来，重复调用直接命中 |
+| 上下文管理器 | context manager | 支持 `with` 语句的对象，进入/退出时自动执行 |
+| 线程池 | `ThreadPoolExecutor` | 并发执行一批任务，适合 I/O 密集 |
+| 多进程 | `multiprocessing` | 绕过 GIL 真并行，适合 CPU 密集 |
+| 全局解释器锁 | GIL | CPython 的互斥锁，导致多线程不能并行跑纯计算 |
+| Redis | Redis | 内存键值数据库（NoSQL），常做缓存 |
+| 关系型数据库 | MySQL / SQLite | 用表和 SQL 的数据库 |
+| 对象关系映射 | ORM | 用 Python 类操作数据库表，Django 自带 |
+| 数据迁移 | migration | 把模型改动同步到数据库表结构 |
+| 模板引擎 | template | 把数据填进 HTML，Django 用 `{% %}` / <code v-pre>{{ }}</code> |
+| 表格处理 | `openpyxl` / `python-docx` | 读写 `.xlsx` / `.docx`（`.xls` 旧格式要用 `xlrd`/`xlwt`） |
+| 数据框 | `pandas` / DataFrame | 带行列名的二维表格数据结构 |
+| 绘图 | `matplotlib` | 画折线图/柱状图，保存成 png |
+| HTTP 请求库 | `requests` | 发网页请求，比标准库 `urllib` 好用 |
+| 正则表达式 | `re` | 文本模式匹配，`findall` / `sub` / `split` |
+| JSON | `json` | 与 `dict` 互转：`dumps` / `loads` |
+| 人脸识别 | face recognition | OpenCV 的 LBPH 识别器，需 `opencv-contrib-python` |
+| 微控制器 | ESP32 | 支持 Wi-Fi/蓝牙的开发板，可跑 MicroPython |
+| MicroPython | MicroPython | 跑在硬件上的精简版 Python |
+| MQTT | MQTT | 发布/订阅式消息协议，物联网常用 |
+| 烧录 | flash | 把固件/程序写进开发板，用 `esptool.py` |
+
 ---
 
 ## 易混淆概念对照
