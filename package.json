@@ -1,0 +1,23 @@
+{
+  "name": "zero-basics-python-cn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "《零基础学 Python 中文精读》—— 跟着极客时间《零基础学Python》课程，把 117 讲内容整理成一本可运行、可查的中文电子书",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "docs:sync": "python3 scripts/sync-docs.py",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "verify": "bash scripts/verify-examples.sh",
+    "lint": "python3 scripts/lint-docs.py",
+    "deploy:github": "bash scripts/deploy-github.sh",
+    "deploy:tencent": "bash scripts/deploy-tencent.sh"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
